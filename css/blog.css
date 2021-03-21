@@ -1,0 +1,38 @@
+.container{
+display: flex;
+
+flex-direction: column;
+
+}
+.blogpost-item {
+width: 300px; border: 1px solid black;
+background-color: green;
+}
+
+.blogpost-item-1{
+min-height: 100px;
+flex-shrink: 0;
+flex-basis: 0;
+align-self:center;
+}
+.blogpost-item-2{
+min-height: 120px;
+flex-grow: 5;
+
+
+}
+.blogpost-item-3{
+min-height: 140px;
+flex-grow: 0;
+flex-basis: 0;
+align-self: center;
+}
+.blogpost-item-4{
+ min-height: 160px;
+
+}
+.blogpost-item-5{
+ min-height: 180px; 
+
+}
+

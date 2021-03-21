@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    border:10px solid red;
+    background-color: blue;
+}
+.blue-color{
+    color:blue;
+   
+}
+.yellow-color{
+    color:yellow;
+}
+.purple-border{
+    border: 3px solid purple;
+}
+.green-border{
+    border: 5px solid green;
+}
+div{
+    background-color: yellow;
+    color:purple;
+}
+@media (min-width:600px){
+    p{
+       font-size: 1.25rem; 
+    }
+}
+@media (min-width:800px){
+   p{
+      font-size: 1.5rem; 
+      line-height: 1.5;
+   }
+}
+
+
+@media (max-width:1024px){
+   body{
+       background-color: red;
+     color:green;
+     font-size: 3rem;
+     line-height: 3;
+   }
+}
+
+
